@@ -1,4 +1,4 @@
-# GMAIL API implementation for sending bulk emails
+# GMAIL API implementation for sending bulk emails with DJANGO
 
 
 ## Prerequisites
@@ -13,30 +13,30 @@
 pip install django
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 pip install dotenv # if needed
-
 ```
 
 ## What you need to do
 
 
-- clone this reppository
+- Clone this reppository
 
 - Set up a virtual environment
 ```
 python -m venv virenv-gmailapi
-
 ```
 
-- activate it
+- Activate it
 ```
 source virenv-gmailapi/bin/activate # for linux
-
 ```
 
-- from the project's base directory
+- From the project's base directory
 ```
 python manage.py runserver
-
 ```
 
-- enjoy!
+- Enjoy!
+
+## Issues
+
+I didn't have enough time to test every aspect of this project. So, issues can occur. Please open one when you encounter.
