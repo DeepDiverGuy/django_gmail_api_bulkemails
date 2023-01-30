@@ -35,6 +35,10 @@ source virenv-gmailapi/bin/activate # for linux
 python manage.py runserver
 ```
 
+- Go to http://localhost:8000/emailsend
+
+- Submit all the emails in the form. No specific format is needed. The program will automatically detect the emails only & start sending.
+
 - Enjoy!
 
 ## Issues
