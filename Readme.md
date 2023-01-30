@@ -1,7 +1,9 @@
 # GMAIL API implementation for sending bulk emails with DJANGO
 
 
-## Prerequisites
+## Technical Information (Unfinished)
+
+## Prerequisites (Unfinished)
 
 - A Google Workspace Account
 - Go to https://developers.google.com/gmail/api/quickstart/python & follow the instructions properly
