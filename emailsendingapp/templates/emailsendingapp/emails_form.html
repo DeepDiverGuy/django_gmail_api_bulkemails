@@ -1,0 +1,33 @@
+
+{% if messages %}
+    <ul class="messages">
+    {% for message in messages %}
+        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message.tags }}: {{ message }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+<h1> Email Sending Web-App </h1>
+<br/>
+<br/>
+
+
+<p> <b> Please paste the email addresses below </b> </p>
+
+<form method="post">{% csrf_token %}
+    <!-- <fieldset> -->
+        <!-- <div class="form-row field-email"> -->
+            <!-- {{ form.email.errors }} -->
+            <!-- <label for="id_email">Email address:</label> -->
+            {{ form.emails }}
+        <!-- </div> -->
+        <br/> <br/> <input type="submit" value="Submit">
+    <!-- </fieldset> -->
+</form>
+<br/>
+Successfully sent to: {{success_emails}}
+<br/>
+<br/>
+Could not send to: {{failed_emails}}
+<br/>
+<br/>
