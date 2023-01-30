@@ -1,13 +1,13 @@
-### GMAIL API implementation for sending bulk emails
+# GMAIL API implementation for sending bulk emails
 
 
-# Prerequisites
+## Prerequisites
 
 - A Google Workspace Account
 - Go to https://developers.google.com/gmail/api/quickstart/python & follow the instructions properly
 
 
-# Dependencies
+## Dependencies
 
 ```
 pip install django
@@ -16,7 +16,7 @@ pip install dotenv # if needed
 
 ```
 
-# What you need to do
+## What you need to do
 
 
 - clone this reppository
